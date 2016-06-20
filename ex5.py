@@ -9,16 +9,10 @@ Project Euler Exercise 5
 # Author: James Lawlor <jalawlor@tcd.ie>
 
 def divisible(x,y = 20):
-
-    for i in range(y, 0,-1):
-
-        if x % i != 0: return False
-
-	return True
-
+  for i in range(y, 0,-1):
+    if x % i != 0: return False
+      return True
 j = 3
-
 while divisible(j,10) != True:
-	j+=1
-
+  j+=1
 print j
